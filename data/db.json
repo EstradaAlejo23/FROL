@@ -1,0 +1,280 @@
+{
+  "empresas": [
+    {
+      "id": "1",
+      "imageUrl": "/img/empresas/Barberia.png",
+      "name": "IABARBER",
+      "ubicacion": "MEDELLIN",
+      "email": "aibarber@example.com",
+      "password": "contraseña1",
+      "description": "En nuestra exclusiva barbería, te invitamos a sumergirte en un oasis de estilo y relajación. Nuestros hábiles barberos están comprometidos con ofrecerte cortes y afeitados excepcionales, en un ambiente de camaradería y auténtica atención al cliente. Ven y disfruta de una experiencia completa de cuidado personal, donde la tradición se une con la modernidad para brindarte un look único y memorable. Te garantizamos que saldrás sintiéndote renovado y con un estilo que refleja tu personalidad. ¡Descubre lo que es la auténtica barbería de excelencia en nuestro establecimiento!",
+      "tipoNegocio": "Barbería",
+      "petFriendly": "SI",
+      "instrucciones": "Llega puntual a tu cita. Elije el servicio que deseas: corte de cabello, afeitado, etc. Relájate y disfruta de la experiencia. Comunica tus preferencias al barbero.",
+      "citas": [
+        {
+          "id": "b015",
+          "nombre": "Alejo",
+          "apellido": "Estrada",
+          "timeCita": "08:15",
+          "dateCita": "2024-02-01",
+          "servicio": "Barberia"
+        },
+        {
+          "nombre": "Tom",
+          "apellido": "petter",
+          "timeCita": "09:36",
+          "dateCita": "2024-02-02",
+          "servicio": "Peluqueria"
+        },
+        {
+          "nombre": "juan",
+          "apellido": "velez",
+          "timeCita": "08:00",
+          "dateCita": "2024-02-05",
+          "servicio": "BARBERIA"
+        },
+        {
+          "nombre": "mariana",
+          "apellido": "dfdgd",
+          "timeCita": "08:00",
+          "dateCita": "2024-03-17",
+          "servicio": "uñas"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "imageUrl": "/img/empresas/em1.jpg",
+      "name": "WELDER",
+      "ubicacion": "CAlI",
+      "email": "welder@example.com",
+      "password": "uñas1234",
+      "description": "Bienvenido a nuestro spa de uñas, donde la elegancia se encuentra con la relajación. Nuestro equipo de especialistas en uñas está dedicado a ofrecerte servicios de manicura y pedicura excepcionales, en un ambiente acogedor y amigable. Déjate consentir y disfruta de una experiencia completa de cuidado personal.",
+      "tipoNegocio": "Spa de Uñas",
+      "petFriendly": "Sí",
+      "instrucciones": "Llega puntual a tu cita. Elije el servicio que deseas: manicura, pedicura, etc. Relájate y disfruta de la experiencia. Comunica tus preferencias al especialista en uñas.",
+      "citas": [
+        {
+          "nombre": "Cristian",
+          "apellido": "cardenas",
+          "timeCita": "09:50",
+          "dateCita": "2024-02-01",
+          "servicio": "Barberia"
+        },
+        {
+          "nombre": "camila",
+          "apellido": "marin",
+          "timeCita": "08:00",
+          "dateCita": "2024-02-03",
+          "servicio": "uñas"
+        },
+        {
+          "nombre": "Alejo",
+          "apellido": "Estrada",
+          "timeCita": "11:00",
+          "dateCita": "2024-02-05",
+          "servicio": "Barberia"
+        },
+        {
+          "nombre": "adwa",
+          "apellido": "marin",
+          "timeCita": "22:00",
+          "dateCita": "2024-01-29",
+          "servicio": "uñas"
+        },
+        {
+          "nombre": "jose",
+          "apellido": "rodriguez",
+          "timeCita": "08:00",
+          "dateCita": "0002-08-05",
+          "servicio": "Barberia"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "imageUrl": "/img/empresas/em3.jpg",
+      "name": "Cocinas Exoticas",
+      "ubicacion": "IBAGUE",
+      "email": "cocinaexotica@example.com",
+      "password": "estilos2023",
+      "description": "En nuestra peluquería, te ofrecemos una amplia gama de servicios para que encuentres el look perfecto que refleje tu estilo único. Nuestros estilistas profesionales están comprometidos con brindarte cortes y peinados excepcionales, en un ambiente donde la creatividad y la innovación se unen para transformar tu imagen.",
+      "tipoNegocio": "Peluquería",
+      "petFriendly": "Sí",
+      "instrucciones": "Llega puntual a tu cita. Elije el servicio que deseas: corte de cabello, afeitado, etc. Relájate y disfruta de la experiencia. Comunica tus preferencias a la estilista.",
+      "citas": []
+    },
+    {
+      "id": "4",
+      "imageUrl": "/img/empresas/em4.jpg",
+      "name": "shopBarber",
+      "ubicacion": "MEDELLIN",
+      "email": "shopbarber@example.com",
+      "password": "clasicobarberia",
+      "description": "Descubre la esencia de la barbería clásica en nuestro establecimiento. Nuestros talentosos barberos están listos para ofrecerte cortes y afeitados de calidad, mientras te sumerges en un ambiente de camaradería y estilo. Ven y experimenta la tradición con un toque moderno en cada servicio que ofrecemos.",
+      "tipoNegocio": "Barbería",
+      "petFriendly": "Sí",
+      "instrucciones": "Llega puntual a tu cita. Elije el servicio que deseas: corte de cabello, afeitado, etc. Relájate y disfruta de la experiencia. Comunica tus preferencias al barbero.",
+      "citas": []
+    },
+    {
+      "id": "5",
+      "imageUrl": "/img/empresas/em5.jpg",
+      "name": "spaCaribe",
+      "ubicacion": "MEDELLIN",
+      "email": "spaCaribe@example.com",
+      "password": "uñasbienestar",
+      "description": "En nuestro spa de uñas, te invitamos a experimentar un oasis de belleza y bienestar. Nuestros especialistas en uñas están comprometidos con brindarte servicios de manicura y pedicura excepcionales, en un ambiente relajante y rejuvenecedor. Disfruta de una experiencia única de cuidado personal que realza tu belleza interior y exterior",
+      "tipoNegocio": "Spa de Uñas",
+      "petFriendly": "No",
+      "instrucciones": "Llega puntual a tu cita. Elije el servicio que deseas: manicura, pedicura, etc. Relájate y disfruta de la experiencia. Comunica tus preferencias al especialista en uñas.",
+      "citas": []
+    },
+    {
+      "id": "6",
+      "imageUrl": "/img/empresas/em6.jpg",
+      "name": "Estilos Innovadores",
+      "ubicacion": "Manizales",
+      "email": "estilosinnovadores@example.com",
+      "password": "innova2023",
+      "description": "En nuestra peluquería, te ofrecemos servicios de vanguardia que reflejan tu estilo único y personalidad. Nuestros estilistas están dedicados a ofrecerte cortes y peinados innovadores, en un ambiente donde la creatividad y la pasión por la moda se unen para crear looks espectaculares.",
+      "tipoNegocio": "Peluquería",
+      "petFriendly": "No",
+      "instrucciones": "Llega puntual a tu cita. Elije el servicio que deseas: corte de cabello, peinado, etc. Relájate y disfruta de la experiencia. Comunica tus preferencias al estilista.",
+      "citas": []
+    },
+    {
+      "id": "7",
+      "imageUrl": "/img/empresas/em7.jpg",
+      "name": "Corte y Estilo",
+      "ubicacion": "MEDELLIN",
+      "email": "corteestilo@example.com",
+      "password": "corteyestilo2023",
+      "description": "En nuestra barbería, te ofrecemos más que un corte de cabello; te ofrecemos un estilo de vida. Nuestros barberos expertos están comprometidos con brindarte servicios de calidad y atención personalizada, en un ambiente donde la tradición y la modernidad se fusionan para crear experiencias inolvidables.",
+      "tipoNegocio": "Barbería",
+      "petFriendly": "Sí",
+      "instrucciones": "Llega puntual a tu cita. Elije el servicio que deseas: corte de cabello, afeitado, etc. Relájate y disfruta de la experiencia. Comunica tus preferencias al barbero.",
+      "citas": []
+    },
+    {
+      "id": "8",
+      "imageUrl": "/img/empresas/em8.jpg",
+      "name": "Armonía y Estilo",
+      "ubicacion": "Santa Marta",
+      "email": "armoniayestilo@example.com",
+      "password": "armonia2023",
+      "description": "En nuestro spa de uñas, te invitamos a descubrir la armonía y el estilo en cada detalle. Nuestro equipo de especialistas en uñas está dedicado a ofrecerte servicios de manicura y pedicura de alta calidad, en un ambiente tranquilo y relajante. Disfruta de un momento de cuidado personal y bienestar en nuestro oasis de belleza.",
+      "tipoNegocio": "Spa de Uñas",
+      "petFriendly": "Sí",
+      "instrucciones": "Llega puntual a tu cita. Elije el servicio que deseas: manicura, pedicura, etc. Relájate y disfruta de la experiencia. Comunica tus preferencias al especialista en uñas.",
+      "citas": []
+    },
+    {
+      "id": "9",
+      "imageUrl": "/img/empresas/em9.jpg",
+      "name": "Estilo y Elegancia",
+      "ubicacion": "MEDELLIN",
+      "email": "estilo.elegancia@example.com",
+      "password": "elegancia2023",
+      "description": "En nuestra peluquería, fusionamos estilo y elegancia para ofrecerte servicios de alta calidad que realzan tu belleza natural. Nuestros estilistas profesionales están comprometidos con brindarte cortes, peinados y tratamientos capilares excepcionales, en un ambiente acogedor y sofisticado.",
+      "tipoNegocio": "Peluquería",
+      "petFriendly": "No",
+      "instrucciones": "Llega puntual a tu cita. Elije el servicio que deseas: corte de cabello, peinado, tratamiento capilar, etc. Relájate y disfruta de la experiencia. Comunica tus preferencias al estilista.",
+      "citas": [
+        {
+          "nombre": "Alejo",
+          "apellido": "Estradas",
+          "timeCita": "08:00",
+          "dateCita": "2024-02-03",
+          "servicio": "Peluquiada"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "imageUrl": "/img/empresas/em10.jpg",
+      "name": "Estilo Urbano",
+      "ubicacion": "Bogota",
+      "email": "estilourbano@example.com",
+      "password": "urbano2023",
+      "description": "En Estilo Urbano, fusionamos la tradición de la barbería clásica con el estilo urbano moderno. Nuestros expertos barberos están comprometidos con brindarte cortes de cabello y afeitados excepcionales, en un ambiente donde la música y el estilo se mezclan para ofrecerte una experiencia única.",
+      "tipoNegocio": "Barbería",
+      "petFriendly": "Sí",
+      "instrucciones": "Llega puntual a tu cita. Elige el servicio que deseas: corte de cabello, afeitado, etc. Relájate y disfruta de la experiencia. Comunica tus preferencias al barbero.",
+      "citas": []
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Juan",
+      "email": "juanPerez@example.com",
+      "phoneNumber": "32054689",
+      "password": "juan123"
+    },
+    {
+      "id": "2",
+      "name": "Alejandro",
+      "email": "estradaAlejo878@gmail.com",
+      "phoneNumber": "3124587966",
+      "password": "123456"
+    },
+    {
+      "id": "3",
+      "name": "cristian",
+      "email": "cris@.com",
+      "phoneNumber": "325416482",
+      "password": "123455"
+    },
+    {
+      "id": "4",
+      "name": "camila",
+      "email": "camil@gmail.com",
+      "phoneNumber": "42343423",
+      "password": "123456"
+    },
+    {
+      "id": "5",
+      "name": "Angelica",
+      "phoneNumber": "5584",
+      "email": "angelica@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "6",
+      "name": "Richard",
+      "phoneNumber": "3145547388",
+      "email": "richard@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "7",
+      "name": "javier",
+      "phoneNumber": "714851",
+      "email": "javi@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "8",
+      "name": "angel pastrana",
+      "phoneNumber": "4587",
+      "email": "angpastrana@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "9",
+      "name": "pacho",
+      "phoneNumber": "78",
+      "email": "pachito@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "10",
+      "name": "juan",
+      "phoneNumber": "785",
+      "email": "juan3@gmail.com",
+      "password": "123"
+    }
+  ]
+}

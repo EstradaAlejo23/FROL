@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/aliados.css">
+    <link rel="stylesheet" href="./styles/stylesCitas.css">
+    <script src="./scripts/aliados.js" defer></script>
+    <title>Aliados</title>
+</head>
+<body>
+    <header>
+         <nav>
+            <ul class="nav-bar">
+                <li class="logo-nav"><a href="./index.html"><img src="./img/logo.jpeg" alt="logo"></a></li>
+                <input type="checkbox" id="nav-check">
+                <span class="nav-menu">
+                    <li><a href="./unete.html">Unete a Nosotros</a></li>
+                    <li><a href="#">Español</a></li>
+                    <li><a href="#">Ingles</a></li>
+                    <li><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="acceder"><i class="fa-solid fa-right-to-bracket"></i></button></li>
+                    <li class="LogName"><a href="" class="nombreLogin"></a><i class="fa-regular fa-user loginLogo" style="color: #ffffff;"></i></li>
+                    <li><button type="button" class="btn btn-secondary cerrarSesion"><i class="fa-solid fa-arrow-right"></i></button></li>
+                    <label for="nav-check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="nav-check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
+    
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Formulario de Ingreso</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-info">
+                        <img src="./img/logo.jpeg" alt="" width="150px" height="150px">
+                        <p>Bievenidos a Frol</p>
+                    </div>
+                    <div class="pantallaContainer"></div>
+                    <div class="modal-body">
+                        <form action="" class="formIngresar formsContainer">
+                            <input type="email" name="email" class="emailIngreso" placeholder=" Ingresa tu correo" required>
+                            <input type="password" placeholder=" Contraseña" class="paswIngreso" required>
+                            <button type="button" class="olvidoIr">¿Olvidaste tu Contraseña?</button>
+                            <button type="submit" class="btn btn-danger">Iniciar Sesión</button>
+                            <button type="button" class="btn btn-primary irIngresar">Registrarse</button>
+                        </form>
+                        <form class="formRegistar formsContainer">
+                            <input type="text" placeholder=" Nombre" class="nameRegistro" required>
+                            <input type="number" placeholder=" Celular" class="numRegistro" required>
+                            <input type="email" placeholder=" Correo" class="emailRegistro" required>
+                            <input type="password" placeholder=" Contraseña" class="contRegistro" required>
+                            <button type="submit" class="btn btn-danger">Registrarse</button>
+                            <button type="button" class="btn btn-primary irRegistrar">Iniciar Sesión</button>
+                        </form>
+    
+                        <form class="formRecuperar formsContainer">
+                            <input type="email" placeholder=" Ingresa tu correo" class="emailRecuperar" required>
+                            <div>
+                                <span>Contraseña:</span>
+                                <span class="recContainer"></span>
+                            </div>
+                            <button type="submit" class="btn btn-danger">Recuperar</button>
+                            <button type="button" class="btn btn-primary irRecuperar">Iniciar Sesión</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary close" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </header>
+    <section class="infoAliado">
+        <div class="aliado">
+            <table>
+                <tr>
+                    <td rowspan="2" class="imgAliado"></td>
+                    <td>
+                        <h2 class="nombreAliado">
+                            <h3 class="ubicacionAliado"></h3>
+                        </h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="botonReserva">
+                            <span>Reserva ahora!</span>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section class="bodie">
+        <h1 class="title">Administrador clientes</h1>
+        <main class="container">
+            <div class="row bg-white rounded">
+                <div class="col-12 col-md-6">
+                    <div class="p-3">
+                        <h4>Datos del cliente</h4>
+    
+                        <form class="row g-3 needs-validation p-2" id="formulario" novalidate>
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre"
+                                    required />
+                                <div class="invalid-feedback">Este campo es obligatorio</div>
+                            </div>
+    
+                            <div class="mb-3">
+                                <label for="lastName" class="form-label">Apellidos</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Escribe tu apellido"
+                                    required />
+                                <div class="invalid-feedback">Este campo es obligatorio</div>
+                            </div>
+    
+                            <div class="mb-3">
+                                <label for="datecite" class="form-label">Fecha de la cita</label>
+                                <input type="date" class="form-control" id="datecite" required />
+                                <div class="invalid-feedback">Este campo es obligatorio</div>
+                            </div>
+    
+                            <div class="mb-3">
+                                <label for="timecite" class="form-label">Hora de la cita</label>
+                                <input type="time" class="form-control" id="timecite"
+                                    placeholder="Escribe el nombre de tu mascota" required />
+                                <div class="invalid-feedback">Este campo es obligatorio</div>
+                            </div>
+    
+                            <div class="mb-3">
+                                <label for="service" class="form-label">Servicio</label>
+                                <input class="form-control" id="service" placeholder="servicio" required></input>
+                            </div>
+    
+                            <button class="btn btn-success" type="submit" id="btnSave">
+                                Guardar
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 p-3">
+                    <h4>Administrar citas</h4>
+                    <div class="container-cites d-flex flex-wrap gap-3" id="containerCita">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <section>
+        <div class="opt">
+            <nav class="opciones">
+                <a href="#" class="nav-link">Información</a>
+            </nav>
+        </div>
+        <div class="descrip">
+            <h2>Descripción</h2>
+            <h5 class="descrip"></h5>
+            <hr>
+        </div>
+    </section>
+    <section>
+        <div class="Galeria">
+            <img src="" alt="" width="200px">
+            <img src="" alt="" width="350px">
+            <img src="" alt="" width="360px">
+            <img src="" alt="" width="315px">
+            <hr>
+        </div>
+    </section>
+    <section>
+        <div class="info">
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3899203832984!2d-75.59726722420753!3d6.212195726701019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44295984cde4bf%3A0xa1066131d979fba3!2sArkadia%20Centro%20Comercial!5e0!3m2!1ses-419!2sco!4v1698713389675!5m2!1ses-419!2sco"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact">
+                <div class="Horario">
+                    <table>
+                        <tr>
+                            <td>
+                                <h3>Horario</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Lunes</td>
+                            <td>8:00 a 17:00</td>
+                        </tr>
+                        <tr>
+                            <td>Martes</td>
+                            <td>8:00 a 17:00</td>
+                        </tr>
+                        <tr>
+                            <td>Miércoles</td>
+                            <td>8:00 a 17:00</td>
+                        </tr>
+                        <tr>
+                            <td>Jueves</td>
+                            <td>8:00 a 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Viernes</td>
+                            <td>8:00 a 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sábado</td>
+                            <td>8:00 a 14:00</td>
+                        </tr>
+                        <tr>
+                            <td>Domingo</td>
+                            <td>8:00 a 14:00</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="info-deta">
+            <hr>
+            <div class="info-empre">
+                <h4>Tipo de negocio</h4>
+                <p class="tpNeg"></p>
+                <h4>PetFriendly</h4>
+                <p class="pet"></p>
+            </div>
+            <div class="instru">
+                <h4>Instrucciones</h4>
+                <p class="instrucc"></p>
+                <h4>Politicas de cancelación de citas</h4>
+                <p> Agradecemos que nos notifiques con al menos 1 días de anticipación si necesitas cancelar o reprogramar
+                    tu cita.
+                    Las cancelaciones realizadas con dicho día de anticipación o más, no incurrirán en ningún cargo.
+                    Si cancelas con menos de 24horas de anticipación o no te presentas a tu cita, podríamos aplicar un cargo
+                    por cancelación tardía o no presentación.
+                    Entendemos que pueden surgir circunstancias imprevistas, por lo que evaluaremos cada situación caso por
+                    caso.</p>
+                <h4>Politicas de pago</h4>
+                <p>
+                    Aceptamos pagos en efectivo y con tarjetas de crédito/débito.
+                    Todos los servicios deben pagarse en su totalidad al finalizar la cita.
+                    Ofrecemos la opción de pago por adelantado en línea al programar tu cita en nuestro sitio web.
+                    En caso de comprar un paquete de servicios, el pago completo del paquete es necesario antes de comenzar
+                    a utilizarlo.
+                    Para cualquier servicio adicional, productos o accesorios, se aplicarán cargos adicionales y deben
+                    pagarse al finalizar la cita.</p>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <footer>
+        <div class="fooIconContainer">
+            <a href="#" class="fooIcon" id="face"></a>
+            <a href="#" class="fooIcon" id="ig"></a>
+            <a href="#" class="fooIcon" id="wpp"></a>
+            <a href="#" class="fooIcon" id="x"></a>
+    
+        </div>
+        <ul class="fooUl">
+            <li class="fooItems">Legal</li>
+            <li class="fooItems">Cookies</li>
+            <li class="fooItems">Privacidad</li>
+        </ul>
+        <span class="copyright">&copy;2024, Todos los derechos resrvados</span>
+    </footer>
+        
+
+    <script src="./scripts/index.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./scripts/bootstrapValidator.js"></script>
+    <script src="./scripts/newUser.js" type="module"></script>
+    <script src="./scripts/login.js"></script>
+    <script src="./scripts/app.js" type="module"></script>
+    <script type="module" src="./scripts/newCita.js"></script>
+    <script src="./scripts/aliados.js"></script>
+</body>
+</html>

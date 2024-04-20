@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;900&family=Inter:wght@600&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+@import url('./style.css');
+/* ---------BARRA SUPERIOR------------- */
+
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background: rgb(250, 250, 250);
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    /* Tipo de letra */
+}
+
+
+
+
+/* ---------PRESENTACION------------- */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 60vh;
+    background: linear-gradient(0deg, rgba(56, 65, 62) 70%, rgba(255, 255, 255, 1) 80%);
+}
+
+.caja_padre {
+    color: white;
+}
+
+.bussines {
+    color: white;
+}
+
+.titulo1 {
+    padding-left: 60px;
+    font-family: 'Cormorant Garamond', serif;
+    /* Tipo de letra */
+    color: #545454;
+    font-size: 7vw;
+}
+
+.parrhijo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.parrhijo p {
+    width: 70%;
+    font-size: 20px;
+}
+
+.imagen1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50vw;
+    height: 100%;
+}
+
+
+
+/* ---------TODOS LOS SUBTITULOS------------- */
+.subtitulo,
+.subti {
+    color: #545454;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+
+
+/* ---------SESION DE RESULTADOS ESTADISTICOS------------- */
+.estadist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 50px;
+}
+
+.estadist .subtitulo {
+
+   text-align: center;
+}
+
+
+
+/* ---------SESION PLANES------------- */
+.planes {
+    max-width: 200vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.planes .subtitulo b {
+    /* position: relative; */
+    text-align: center;
+    
+
+}
+
+.planes_contenido {
+    height: 80px;
+    width: 100%;
+}
+
+.planes_contenido #bot2 {
+
+    background-color: #1b3039;
+    color: #fbf9f9;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 1500;
+    letter-spacing: 2px;
+    position: relative;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.planes_contenido #bot2 {
+    background-color: #1b3039;
+    opacity: 60%;
+}
+
+.planes_contenido #parr2 {
+    font-size: 30px;
+    color: black;   
+    top: 100px;
+    text-align: center;
+    
+}
+
+/*CARRUSEL*/
+
+.w-full img {
+    height: 100%;
+    max-width: 500px ;
+}
+
+.group .group-hover\:bg-white\/50 {
+   
+    background-color: rgb(134, 120, 120);
+}
+
+.group .group-hover\:bg-white\/50 {
+    background-color: white;
+}
+
+.text-white {
+    color: darkgrey !important;
+}
+
+
+
+@media screen and (max-width: 460px) {
+
+    .content_slider h2 {
+        font-size: 15pt !important;
+    }
+
+    .content_slider p {
+        font-size: 12pt !important;
+    }
+
+    #container-slider .arrowPrev,
+    #container-slider .arrowNext {
+        font-size: 20pt;
+    }
+
+    #container-slider .arrowPrev {
+        left: 15px;
+    }
+
+    #container-slider .arrowNext {
+        right: 15px !important;
+    }
+
+    #slider {
+        height: 400px;
+        min-height: 400px;
+    }
+
+    #slider li .content_slider {
+        padding: 10px 35px;
+    }
+
+    .btnSlider {
+        padding: 10px 30px;
+        font-size: 10pt;
+    }
+
+    .estadist img {
+        width: 90%;
+      
+    }
+
+    .estadist {
+        margin: 0%;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+
+    .planes .subtitulo b {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .planes_contenido #parr2 {
+        font-size: 20px;
+    }
+
+}
+
+@media(max-width:852px) {
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: #1b3039;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .nav-menu li {
+        margin-top: 40px;
+    }
+
+    .nav-menu li a {
+        padding: 10px;
+    }
+
+    .open-menu,
+    .close-menu {
+        display: block;
+    }
+
+    #nav-check:checked~.nav-menu {
+        right: 0;
+    }
+
+    .caja_padre {
+    
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bussines {
+        color: #545454;
+    }
+
+    .titulo1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5vh 0 5vh 0;
+        font-size: 5vh;
+    }
+
+    .w-full img {
+        width: 66vw;
+    }
+    
+}

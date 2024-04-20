@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Playpen+Sans:wght@200&display=swap');
+@import url("./style.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+}
+
+.aliado table tr td img {
+    height: 300px;
+}
+
+.botonReserva {
+    border: 0;
+    background-image: linear-gradient(150deg, #9500ff, #09f, #00ddff);
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botonReserva span {
+    background-color: #111;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.botonReserva:hover span {
+    background: none;
+}
+
+.botonReserva:active {
+    transform: scale(0.9);
+}
+
+.opciones a,
+.info-deta a {
+    color: #111;
+    text-decoration: none;
+}
+
+.opciones {
+    display: flex;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #cdd6ff;
+}
+
+.opciones a:hover {
+    color: white;
+}
+
+.opt {
+    display: flex;
+    justify-content: space-around;
+    background-color: #cdd6ff;
+}
+
+.opt a img {
+    height: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.info a {
+    margin-right: 10px;
+    margin-left: 20px;
+    color: white;
+}
+
+.info a:hover {
+    color: white;
+}
+
+p,
+h2,
+h3 {
+    color: black;
+}
+
+.Galeria,
+.descrip,
+.info-deta {
+    margin: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Galeria {
+    text-align: center;
+}
+
+.descrip h2,
+.descrip hr,
+.Galeria hr {
+    margin: 10px;
+}
+
+.mapa {
+    width: "750";
+    height: "350";
+}
+
+.Mensaje {
+    align-items: center;
+    width: 130px;
+    height: 60px;
+    margin-left: 40px;
+}
+
+.Llamada {
+    align-items: center;
+    width: 130px;
+    height: 60px;
+}
+
+.call {
+    width: 45px;
+    height: 70px;
+}
+
+.message {
+    height: 75px;
+    width: 35px;
+}
+
+.boton {
+    font-size: 18px;
+    padding: 2px;
+    align-items: center;
+    height: 60px;
+    width: 130px;
+    display: flex;
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+}
+
+.boton h4 {
+    margin-right: 10px;
+}
+
+.Horario {
+    margin-left: 40px;
+}
+
+.aliado {
+    width: 100%;
+    margin: 40px auto;
+}
+
+.aliado table {
+    margin-left: 340px;
+}
+
+.info-empre {
+    display: flex;
+    gap: 20px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.instru {
+    margin: 40px;
+    padding: 15px;
+}
+
+.instru h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.mostrar-menu {
+    order: 1;
+}
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+
+    .aliado table {
+        margin-right: auto;
+        margin-left: auto;
+        width: auto;
+    }
+
+    .aliado {
+        margin: auto;
+    }
+
+    .aliado table tr td img {
+        display: none;
+    }
+
+    .descrip {
+        margin-left: auto;
+        margin: auto;
+        padding: 0;
+    }
+
+    .Galeria {
+        margin-left: 0;
+        margin: auto;
+    }
+
+    .mapa {
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .info-empre {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: baseline;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .info-deta {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .about {
+        margin: 0;
+
+    }
+}
+
+@media (min-width:520px) and (max-width: 640px) {
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .info-empre {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .aliado table {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .aliado table tr td img {
+        display: flex;
+    }
+
+    .info-empre {
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .aliado table {
+        margin-right: auto;
+        margin-left: auto;
+        width: auto;
+    }
+
+    .aliado {
+        margin: auto;
+    }
+
+    .aliado table tr td img {
+        display: none;
+    }
+
+    .descrip {
+        margin-left: auto;
+        margin: auto;
+        padding: 0;
+    }
+
+    .Galeria {
+        margin-left: 0;
+        margin: auto;
+    }
+
+    .mapa {
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .info-empre {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .info-deta {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+
+
+    .about {
+        margin: 0;
+    }
+
+    .des-app {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .aliado table {
+        margin-right: auto;
+        margin-left: auto;
+        width: auto;
+    }
+
+    .aliado {
+        margin: auto;
+    }
+
+    .descrip {
+        margin-left: auto;
+        margin: auto;
+        padding: 0;
+    }
+
+    .Galeria {
+        margin-left: 0;
+        padding: 0 30px;
+        margin: auto;
+    }
+
+    .mapa {
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .info-empre {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin: auto;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .info-deta {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .social {
+        display: flex;
+    }
+
+    .about {
+        margin: 0;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 518px) {
+    .info-empre {
+        display: flex;
+        flex-direction: column;
+    }
+}
